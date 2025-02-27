@@ -19,17 +19,16 @@
     <br />
     <swiper-container #swiper [loop]="true" [zoom]="true">
       <swiper-slide *ngFor="let data of introData; let i = index ">
-        <ion-card>
-          <div class="swiper-zoom-container">
-            <img class="img" src="{{data.image}}" />
-          </div>
-
+        <ion-card
+          ><a href="{{data.link}}">
+            <div class="swiper-zoom-container">
+              <img class="img" src="{{data.image}}" />
+            </div>
+          </a>
           <ion-card-header>
             <ion-card-title>{{data.title}}</ion-card-title>
             <ion-card-subtitle>{{data.subtitle}}</ion-card-subtitle>
           </ion-card-header>
-          <ion-card-content>{{data.content}}</ion-card-content>
-          <br />
           <ion-card-content>{{ i + 1}}</ion-card-content>
         </ion-card>
       </swiper-slide>

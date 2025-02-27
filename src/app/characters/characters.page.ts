@@ -31,7 +31,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Gravitation", "Adhesion", "Stormlight Healing"],
       home: "Alethkar",
       role: "Soldier, Surgeon, Radiant",
-      image: "https://uploads.coppermind.net/thumb/Parting_the_Highstorm_by_Esther_Schrader.jpg/300px-Parting_the_Highstorm_by_Esther_Schrader.jpg",
+      image: "assets/CharactersPhotos/kaladin.jpg",
       description: "A former slave turned legendary Windrunner, Kaladin struggles with his past while protecting those who cannot protect themselves."
     },
     {
@@ -42,7 +42,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Tension", "Adhesion", "Unite Others"],
       home: "Alethkar",
       role: "Highprince, Bondsmith, Military Leader",
-      image: "https://example.com/dalinar.jpg",
+      image: "assets/CharactersPhotos/dalinar.webp",
       description: "The Blackthorn, a once-brutal warlord seeking redemption, now leads as a Bondsmith striving to unite Roshar against its greatest threats."
     },
     {
@@ -53,7 +53,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Illumination", "Transformation", "Memories"],
       home: "Vedenar",
       role: "Scholar, Spy, Radiant",
-      image: "https://example.com/shallan.jpg",
+      image: "assets/CharactersPhotos/shallan.jpg",
       description: "A brilliant scholar with a troubled past, Shallan hides behind different identities while mastering the power of Lightweaving."
     },
     {
@@ -64,7 +64,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Expert Duelist", "Shardbearer"],
       home: "Alethkar",
       role: "Highprince's Heir, Soldier",
-      image: "https://example.com/adolin.jpg",
+      image: "assets/CharactersPhotos/adolin.jpg",
       description: "A skilled duelist and heir to House Kholin, Adolin fights with honor and is determined to do what is right, even when it challenges tradition."
     },
     {
@@ -75,7 +75,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Transportation", "Transformation", "Scholarship"],
       home: "Alethkar",
       role: "Scholar, Queen of Alethkar",
-      image: "https://example.com/jasnah.jpg",
+      image: "assets/CharactersPhotos/jasnah.jpg",
       description: "A fearless scholar and Queen of Alethkar, Jasnah wields immense knowledge and power, unafraid to challenge belief systems."
     },
     {
@@ -86,7 +86,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Engineering", "Fabrial Creation", "Tactician"],
       home: "Alethkar",
       role: "Scholar, Queen, Artifabrian",
-      image: "https://example.com/navani.jpg",
+      image: "assets/CharactersPhotos/navani.webp",
       description: "A brilliant artifabrian and strategist, Navani is a powerful leader who pushes the boundaries of fabrial technology to aid in the war effort."
     },
     {
@@ -97,7 +97,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Gravitation", "Division", "Stormlight Healing"],
       home: "Shinovar",
       role: "Assassin, Truthless, Knight Radiant",
-      image: "https://example.com/szeth.jpg",
+      image: "assets/CharactersPhotos/szeth.jpg",
       description: "Once known as the Assassin in White, Szeth is burdened by guilt and duty, wielding the powerful and dangerous sword, Nightblood."
     },
     {
@@ -108,7 +108,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Progression", "Abrasion", "Converts Food to Stormlight"],
       home: "Reshi Isles",
       role: "Thief, Knight Radiant",
-      image: "https://example.com/lift.jpg",
+      image: "assets/CharactersPhotos/lift.jpg",
       description: "A mischievous and unpredictable Edgedancer, Lift has the unique ability to convert food into Stormlight, making her a powerful but quirky Radiant."
     },
     {
@@ -119,7 +119,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Transportation", "Cohesion", "Forms of Power"],
       home: "Shattered Plains",
       role: "Scholar, Revolutionary, Radiant",
-      image: "https://example.com/venli.jpg",
+      image: "assets/CharactersPhotos/venli.jpg",
       description: "A once-ambitious scholar of the Listeners, Venli struggles with her past decisions as she embraces the path of the Willshapers."
     },
     {
@@ -130,7 +130,7 @@ export class CharactersPage implements OnInit {
       abilities: ["Genius on Some Days", "King", "Manipulator"],
       home: "Kharbranth",
       role: "King, Ruler of the Diagram",
-      image: "https://example.com/taravangian.jpg",
+      image: "assets/CharactersPhotos/taravangian.webp",
       description: "A ruler whose intelligence fluctuates daily, Taravangian created the Diagram to save humanity—though his methods are questionable."
     }
   ];

@@ -21,39 +21,39 @@ export class FolderPage implements OnInit {
 
   introData = [
     {
-      title: "title1",
-      subtitle: "subtitle",
-      image: "https://i.ebayimg.com/images/g/b-kAAOSwHsllc2ma/s-l1200.jpg",
+      title: "The Way of Kings",
+      subtitle: "Kaladin's book",
+      image: "assets/BookCovers/book1.jpg",
       content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Asperiores quia, facere ut commodi adipisci expedita voluptatum dicta esse corporis assumenda, eveniet voluptates inventore magni, sunt necessitatibus minima beatae maxime impedit?",
-      link: "link"
+      link: "https://www.amazon.com/dp/0765326353"
     },
     {
-      title: "title2",
-      subtitle: "subtitle",
-      image: "https://i.ebayimg.com/images/g/b-kAAOSwHsllc2ma/s-l1200.jpg",
+      title: "Words of Radiance",
+      subtitle: "Shallan's book",
+      image: "assets/BookCovers/book2.jpg",
       content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Asperiores quia, facere ut commodi adipisci expedita voluptatum dicta esse corporis assumenda, eveniet voluptates inventore magni, sunt necessitatibus minima beatae maxime impedit?",
-      link: "link"
+      link: "https://www.amazon.com/dp/0765365286"
     },
     {
-      title: "title3",
-      subtitle: "subtitle",
-      image: "https://i.ebayimg.com/images/g/b-kAAOSwHsllc2ma/s-l1200.jpg",
+      title: "Oathbringer",
+      subtitle: "Dalinars's book",
+      image: "assets/BookCovers/book3.jpg",
       content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Asperiores quia, facere ut commodi adipisci expedita voluptatum dicta esse corporis assumenda, eveniet voluptates inventore magni, sunt necessitatibus minima beatae maxime impedit?",
-      link: "link"
+      link: "https://www.amazon.com/dp/1250297141"
     },
     {
-      title: "title4",
-      subtitle: "subtitle",
-      image: "https://i.ebayimg.com/images/g/b-kAAOSwHsllc2ma/s-l1200.jpg",
+      title: "Rhythm of War",
+      subtitle: "Venli's book",
+      image: "assets/BookCovers/book4.jpg",
       content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Asperiores quia, facere ut commodi adipisci expedita voluptatum dicta esse corporis assumenda, eveniet voluptates inventore magni, sunt necessitatibus minima beatae maxime impedit?",
-      link: "link"
+      link: "https://www.amazon.com/dp/0765326388"
     },
     {
-      title: "title5",
-      subtitle: "subtitle",
-      image: "https://i.ebayimg.com/images/g/b-kAAOSwHsllc2ma/s-l1200.jpg",
+      title: "Wind and truth",
+      subtitle: "Szeth's book",
+      image: "assets/BookCovers/book5.jpg",
       content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Asperiores quia, facere ut commodi adipisci expedita voluptatum dicta esse corporis assumenda, eveniet voluptates inventore magni, sunt necessitatibus minima beatae maxime impedit?",
-      link: "link"
+      link: "https://www.amazon.com/dp/1250319188"
     },
   ]
 

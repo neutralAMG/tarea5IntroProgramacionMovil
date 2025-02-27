@@ -17,7 +17,7 @@ export class AppComponent {
     { title: 'About', url: '/about', icon: 'trash' },
     { title: 'Characters', url: '/characters', icon: 'paper-plane' },
     { title: 'Moments', url: '/moments', icon: 'heart' },
-    { title: 'My Experience', url: '/my-Experience', icon: 'archive' },
+    { title: 'My Experience', url: '/my-experience', icon: 'archive' },
     { title: 'Hire Me', url: '/hire-me', icon: 'warning' },
   ];
   constructor() {
