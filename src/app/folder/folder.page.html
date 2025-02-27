@@ -15,7 +15,24 @@
   </ion-header>
 
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <h1>The stormlight archive</h1>
+    <br />
+    <swiper-container #swiper [loop]="true" [zoom]="true">
+      <swiper-slide *ngFor="let data of introData; let i = index ">
+        <ion-card>
+          <div class="swiper-zoom-container">
+            <img class="img" src="{{data.image}}" />
+          </div>
+
+          <ion-card-header>
+            <ion-card-title>{{data.title}}</ion-card-title>
+            <ion-card-subtitle>{{data.subtitle}}</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>{{data.content}}</ion-card-content>
+          <br />
+          <ion-card-content>{{ i + 1}}</ion-card-content>
+        </ion-card>
+      </swiper-slide>
+    </swiper-container>
   </div>
 </ion-content>

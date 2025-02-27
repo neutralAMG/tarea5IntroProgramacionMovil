@@ -1,0 +1,47 @@
+.charContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    color: black;
+    cursor: pointer;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.container :active{
+background-color: rgb(3, 173, 173);
+}
+
+.charContainerImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .charContainerImageContainerImage {
+    width: 80px; 
+    height: 80px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 2px solid #ccc; 
+  }
+  
+  .modalImage {
+    width: 220px; 
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #007bff; 
+  }
+
+  #container{
+    display: grid;
+    grid-template-columns: 1;
+    place-items: center;
+  }
