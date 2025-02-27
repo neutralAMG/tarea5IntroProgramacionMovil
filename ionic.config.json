@@ -1,0 +1,7 @@
+{
+  "name": "Tarea5IntroProgramacionMovil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
