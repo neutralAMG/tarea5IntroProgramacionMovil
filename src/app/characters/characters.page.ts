@@ -143,11 +143,11 @@ export class CharactersPage implements OnInit {
   }
 setOpen(index: number){
   this.selectedCharacter = this.stormlightCharacters[index]
-  this.isModalOpen = !this.isModalOpen
+  this.isModalOpen = true
 }
 setClose(){
   this.selectedCharacter = undefined;
-  this.isModalOpen = !this.isModalOpen
+  this.isModalOpen = false
 }
 
 handleReorder(event: CustomEvent<ItemReorderEventDetail>){

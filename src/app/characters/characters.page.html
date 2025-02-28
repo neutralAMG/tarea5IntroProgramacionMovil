@@ -55,8 +55,30 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <img src="{{selectedCharacter?.image}}" class="modalImage" />
-        <p>{{ selectedCharacter?.description }}</p>
+        <div class="modal-image-container">
+          <img src="{{ selectedCharacter?.image }}" class="modalImage" />
+        </div>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle> {{selectedCharacter?.role}} </ion-card-subtitle>
+            <ion-card-title>{{selectedCharacter?.name}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p><strong>Race:</strong> {{selectedCharacter?.race}}</p>
+            <p><strong>Order:</strong> {{selectedCharacter?.order}}</p>
+            <p><strong>Spren:</strong> {{selectedCharacter?.spren}}</p>
+            <p><strong>Abilities:</strong></p>
+            <ul>
+              <li *ngFor="let ability of selectedCharacter?.abilities">
+                {{ability}}
+              </li>
+            </ul>
+            <p><strong>Home:</strong> {{selectedCharacter?.home}}</p>
+            <p>
+              <strong>Description:</strong> {{selectedCharacter?.description}}
+            </p>
+          </ion-card-content>
+        </ion-card>
       </ion-content>
     </ng-template>
   </ion-modal>

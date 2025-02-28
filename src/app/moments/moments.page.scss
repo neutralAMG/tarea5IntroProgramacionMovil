@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .moment-card {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .moment-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .modal-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .modalImage {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .video-player {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    background-color: black;
+  }

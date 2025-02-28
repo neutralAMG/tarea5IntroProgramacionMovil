@@ -13,4 +13,64 @@
       <ion-title size="large">Moments</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <h1 class="title">The Stormlight Archive: Top Moments</h1>
+
+  <swiper-container #swiper [loop]="true" [zoom]="true">
+    <swiper-slide
+      *ngFor="let moment of moments; let i = index"
+      (click)="setOpen(moment)"
+    >
+      <ion-card class="moment-card">
+        <div class="swiper-zoom-container">
+          <img class="moment-image" src="{{moment.image}}" />
+        </div>
+        <ion-card-header>
+          <ion-card-title>{{ moment.name }}</ion-card-title>
+          <ion-card-subtitle
+            >Happens in Book {{ moment.book }}</ion-card-subtitle
+          >
+        </ion-card-header>
+        <ion-card-content>Moment #{{ i + 1 }}</ion-card-content>
+      </ion-card>
+    </swiper-slide>
+  </swiper-container>
+
+  <!-- Modal for More Info & Video -->
+  <ion-modal [isOpen]="isModalOpen">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>{{ selectedMoment?.name }}</ion-title>
+        <ion-buttons slot="end">
+          <ion-button (click)="setClose()">Close</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content class="ion-padding" overflow-scroll="“true”">
+      <div class="modal-image-container">
+        <img src="{{ selectedMoment?.image }}" class="modalImage" />
+      </div>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>Book {{ selectedMoment?.book }}</ion-card-subtitle>
+          <ion-card-title>{{ selectedMoment?.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <video
+            controls
+            preload="metadata"
+            webkit-playsinline
+            playsinline
+            class="video-player"
+            id="video"
+          >
+            <source src="{{ selectedMoment?.video }}" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
+  </ion-modal>
 </ion-content>
