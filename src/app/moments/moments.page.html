@@ -37,7 +37,7 @@
   </swiper-container>
 
   <!-- Modal for More Info & Video -->
-  <ion-modal [isOpen]="isModalOpen">
+  <ion-modal [isOpen]="isModalOpen" (ionModalDidDismiss)="setClose()">
     <ion-header>
       <ion-toolbar>
         <ion-title>{{ selectedMoment?.name }}</ion-title>

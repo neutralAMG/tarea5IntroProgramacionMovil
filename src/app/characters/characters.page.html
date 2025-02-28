@@ -44,7 +44,7 @@
     </ion-list>
   </ion-grid>
 
-  <ion-modal [isOpen]="isModalOpen">
+  <ion-modal [isOpen]="isModalOpen" (ionModalDidDismiss)="setClose()">
     <ng-template>
       <ion-header>
         <ion-toolbar>
